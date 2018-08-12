@@ -1,6 +1,7 @@
 
 # Created by https://www.gitignore.io/api/android,intellij
 
+
 ### Android ###
 # Built application files
 *.apk
@@ -20,6 +21,12 @@ out/
 # Gradle files
 .gradle/
 build/
+build.gradle
+gradle.*
+gradle/*
+gradlew.*
+gradlew
+settings.gradle
 
 # Local configuration file (sdk path, etc)
 local.properties
@@ -37,6 +44,7 @@ proguard/
 captures/
 
 # IntelliJ
+.idea/*
 *.iml
 .idea/workspace.xml
 .idea/tasks.xml
@@ -145,4 +153,3 @@ fabric.properties
 
 
 # End of https://www.gitignore.io/api/android,intellij
-
